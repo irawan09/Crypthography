@@ -1,4 +1,4 @@
-package Symmetric.CaesarCipher;
+package java.Symmetric.CaesarCipher;
 
 public class CaesarCipher {
     // there are 26+1 characters

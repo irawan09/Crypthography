@@ -1,7 +1,7 @@
-package Symmetric.CaesarCipher;
+package java.Symmetric.CaesarCipher;
 
-import static Symmetric.TextColor.ANSI_BLUE;
-import static Symmetric.TextColor.ANSI_RED;
+import static java.Symmetric.TextColor.ANSI_BLUE;
+import static java.Symmetric.TextColor.ANSI_RED;
 
 public class App {
     public static void main(String[] args) {
