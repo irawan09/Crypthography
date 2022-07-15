@@ -1,4 +1,4 @@
-package java.Symmetric;
+package JavaCode.symmetric;
 
 public class TextColor {
     public static final String ANSI_RESET = "\u001B[0m";

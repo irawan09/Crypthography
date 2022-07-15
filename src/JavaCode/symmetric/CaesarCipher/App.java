@@ -1,7 +1,6 @@
-package java.Symmetric.CaesarCipher;
+package JavaCode.symmetric.CaesarCipher;
 
-import static java.Symmetric.TextColor.ANSI_BLUE;
-import static java.Symmetric.TextColor.ANSI_RED;
+import JavaCode.symmetric.TextColor;
 
 public class App {
     public static void main(String[] args) {
@@ -11,8 +10,8 @@ public class App {
         CaesarCipher cipher = new CaesarCipher();
 
         String cipherText = cipher.encrypt(text, 10);
-        System.out.println(ANSI_RED+cipherText);
+        System.out.println(TextColor.ANSI_BLUE+cipherText);
 
-        System.out.println(ANSI_BLUE+cipher.decrypt(cipherText, 10));
+        System.out.println(TextColor.ANSI_RED+cipher.decrypt(cipherText, 10));
     }
 }
